@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  /* Default Dark Mode (The Kinetic Architect) */
+  --color-surface: #0e0e0f;
+  --color-surface-low: #131314;
+  --color-surface-highest: #262627;
+  --color-primary: #6dddff;
+  --color-primary-container: #00d2fd;
+  --color-secondary: #6e9bff;
+  --color-tertiary: #82a3ff;
+  --color-on-surface: #ffffff;
+  --color-on-surface-variant: #adaaab;
+  --color-outline-variant: rgba(255, 255, 255, 0.1);
+
+  --font-inter: "Inter", sans-serif;
+}
+
+/* Light Mode Overrides */
+:root:not(.dark) {
+  --color-surface: #ffffff;
+  --color-surface-low: #f8fafc;
+  --color-surface-highest: #f1f5f9;
+  --color-primary: #007c91; /* Deeper Cyan for accessibility */
+  --color-primary-container: #00d2fd;
+  --color-secondary: #3b82f6;
+  --color-tertiary: #6366f1;
+  --color-on-surface: #0e0e0f;
+  --color-on-surface-variant: #64748b;
+  --color-outline-variant: rgba(0, 0, 0, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-inter antialiased transition-colors duration-500;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@layer components {
+  .text-gradient {
+    @apply bg-gradient-to-br from-on-surface to-primary bg-clip-text text-transparent;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-surface;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-surface-highest rounded-full border-2 border-surface;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
+}
+
+/* Global transitions */
+* {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-duration: 300ms;
+}
