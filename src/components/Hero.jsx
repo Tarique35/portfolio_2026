@@ -36,13 +36,13 @@ const Hero = () => {
       </p>
 
       <div className="flex flex-wrap gap-4">
-        <button className="px-8 py-4 rounded-lg bg-primary text-surface font-black uppercase tracking-widest hover:scale-105 transition-all flex items-center gap-2 group">
+        <a href="#projects" className="px-8 py-4 rounded-lg bg-primary text-surface font-black uppercase tracking-widest hover:scale-105 transition-all flex items-center gap-2 group">
           View Projects
           <svg className="group-hover:translate-x-1 transition-transform" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-        </button>
-        <button className="px-8 py-4 rounded-lg bg-surface-highest border border-outline-variant font-bold uppercase tracking-widest hover:bg-surface-highest/80 transition-colors">
+        </a>
+        <a href="/resume.pdf" download className="px-8 py-4 rounded-lg bg-surface-highest border border-outline-variant font-bold uppercase tracking-widest hover:bg-surface-highest/80 transition-colors inline-block">
           Download Resume
-        </button>
+        </a>
       </div>
     </section>
   );
