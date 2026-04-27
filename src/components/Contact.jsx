@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-24 px-6 max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 bg-surface-low rounded-[2rem] p-8 md:p-16 border border-outline-variant relative overflow-hidden">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 bg-surface-low rounded-[2rem] p-6 md:p-16 border border-outline-variant relative overflow-hidden">
         {/* Decorative Background */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 blur-[120px] -z-10"></div>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=ansaritarique35@gmail.com" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-lg font-bold hover:text-primary transition-colors"
+                  className="text-base md:text-lg font-bold hover:text-primary transition-colors break-all"
                 >
                   ansaritarique35@gmail.com
                 </a>

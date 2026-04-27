@@ -20,14 +20,18 @@ const Hero = () => {
         <span className="text-[10px] font-bold tracking-widest uppercase">Open for opportunities</span>
       </div>
 
-      <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-[0.9] mb-8">
+      <h1 className="text-4xl md:text-7xl lg:text-8xl font-black tracking-tight leading-[0.9] mb-8">
         Hi, I'm <br />
         <span className="text-on-surface">Mohammad</span> <br />
         <span className="text-primary">Tarique Ansari</span>
       </h1>
 
-      <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-3">
-        Full Stack Developer <span className="text-primary">•</span> Mobile App Developer <span className="text-primary">•</span> UX Enthusiast
+
+
+      <h2 className="text-lg md:text-2xl font-bold mb-6 flex flex-wrap items-center gap-y-2 gap-x-3">
+        Full Stack Developer <span className="text-primary hidden md:inline">•</span> 
+        Mobile App Developer <span className="text-primary hidden md:inline">•</span> 
+        UI Enthusiast
       </h2>
 
       <p className="text-on-surface-variant max-w-2xl text-lg mb-12 leading-relaxed">

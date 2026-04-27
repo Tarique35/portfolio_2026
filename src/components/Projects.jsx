@@ -7,7 +7,7 @@ const Projects = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Mufama - Professional Highlight (Large) */}
-        <div className="md:col-span-2 bg-surface-low rounded-3xl p-10 border border-outline-variant group hover:border-primary/50 transition-all relative overflow-hidden">
+        <div className="md:col-span-2 bg-surface-low rounded-3xl p-6 md:p-10 border border-outline-variant group hover:border-primary/50 transition-all relative overflow-hidden">
           <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-primary/5 blur-[100px] pointer-events-none"></div>
           
           <div className="flex justify-between items-start mb-16">
@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
 
         {/* Investmaya - Professional Work (Small) */}
-        <div className="md:col-span-1 bg-surface-low rounded-3xl p-10 border border-outline-variant group hover:border-primary/50 transition-all relative">
+        <div className="md:col-span-1 bg-surface-low rounded-3xl p-6 md:p-10 border border-outline-variant group hover:border-primary/50 transition-all relative">
           <div className="flex justify-between items-start mb-16">
             <span className="text-[10px] font-black tracking-[0.3em] uppercase text-primary">Professional Work</span>
             <div className="flex gap-2">
@@ -66,7 +66,7 @@ const Projects = () => {
         </div>
 
         {/* Turfmaya - Professional Work (Small) */}
-        <div className="md:col-span-1 bg-surface-low rounded-3xl p-10 border border-outline-variant group hover:border-primary/50 transition-all relative">
+        <div className="md:col-span-1 bg-surface-low rounded-3xl p-6 md:p-10 border border-outline-variant group hover:border-primary/50 transition-all relative">
           <div className="flex justify-between items-start mb-16">
             <span className="text-[10px] font-black tracking-[0.3em] uppercase text-primary">Professional Work</span>
             <div className="flex gap-2">
@@ -93,7 +93,7 @@ const Projects = () => {
         </div>
 
         {/* Servemaya - Professional Work (Small) */}
-        <div className="md:col-span-1 bg-surface-low rounded-3xl p-10 border border-outline-variant group hover:border-primary/50 transition-all relative">
+        <div className="md:col-span-1 bg-surface-low rounded-3xl p-6 md:p-10 border border-outline-variant group hover:border-primary/50 transition-all relative">
           <div className="flex justify-between items-start mb-16">
             <span className="text-[10px] font-black tracking-[0.3em] uppercase text-primary">Professional Work</span>
             <div className="flex gap-2">
@@ -120,7 +120,7 @@ const Projects = () => {
         </div>
 
         {/* Wiyral - Professional News Explorer (Small) */}
-        <div className="md:col-span-1 bg-surface-low rounded-3xl p-10 border border-outline-variant group hover:border-primary/50 transition-all relative">
+        <div className="md:col-span-1 bg-surface-low rounded-3xl p-6 md:p-10 border border-outline-variant group hover:border-primary/50 transition-all relative">
           <div className="flex justify-between items-start mb-16">
             <span className="text-[10px] font-black tracking-[0.3em] uppercase text-primary">Professional Work</span>
             <div className="flex gap-2">
@@ -147,7 +147,7 @@ const Projects = () => {
         </div>
 
         {/* EduRider - Personal Highlight (Large/Full) */}
-        <div className="md:col-span-3 bg-surface-low rounded-3xl p-10 border border-outline-variant group hover:border-primary/50 transition-all relative overflow-hidden">
+        <div className="md:col-span-3 bg-surface-low rounded-3xl p-6 md:p-10 border border-outline-variant group hover:border-primary/50 transition-all relative overflow-hidden">
           <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-primary/5 blur-[100px] pointer-events-none"></div>
           
           <div className="flex justify-between items-start mb-16">
