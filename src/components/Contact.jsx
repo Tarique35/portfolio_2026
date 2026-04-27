@@ -48,7 +48,14 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-[10px] font-black uppercase tracking-widest text-on-surface-variant mb-1">Email Me</p>
-                <p className="text-lg font-bold">ansaritarique35@gmail.com</p>
+                <a 
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=ansaritarique35@gmail.com" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-lg font-bold hover:text-primary transition-colors"
+                >
+                  ansaritarique35@gmail.com
+                </a>
               </div>
             </div>
 
